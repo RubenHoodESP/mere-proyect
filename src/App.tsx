@@ -8,8 +8,8 @@ function App() {
       <div className="row gx-0">
         <Navbar />
         <Home />
-        <Contact />
         <Services />
+        <Contact />
       </div>
     </>
   )

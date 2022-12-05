@@ -1,0 +1,11 @@
+a:after {
+    border-bottom: solid white 1px !important;
+    display: block;
+    content: '';
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out !important;
+}
+
+a:hover::after {
+    transform: scaleX(1);
+}
