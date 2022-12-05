@@ -12,10 +12,10 @@ export const Home = () => {
 
   return (
     <>
-      <div id="home" className="vh-100 d-flex flex-column justify-content-center bg-secondary">
+      <div id="home" className="custom-background vh-100 d-flex flex-column justify-content-center bg-secondary">
         <motion.h1 ref={ref} className={`${isInView ? "border-animation-true" : "border-animation-false"} text-center text-white`}>Daniel Meré</motion.h1>
         <div className="container">
-          <p className='text-white m-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis aliquid magni id ea vero nihil exercitationem eius a, saepe sequi alias. Est porro earum minus ratione consectetur veritatis commodi maxime?</p>
+          <p className='text-white m-5'>Soy un chaval bastante guapo la verdad. Las cosas como son.</p>
         </div>
       </div>
     </>
