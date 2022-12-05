@@ -1,12 +1,14 @@
 
 .custom-background {
-    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url("../../assets/wallpaper-1.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../assets/wallpaper-1.jpg");
     background-attachment: fixed;
+    background-position: center;
 }
 
 .border-animation-false:after {
     display: block;
     content: '';
+    padding-bottom: 48px;
     border-bottom: solid white 0px !important;
     transition: transform 1s ease-in-out;
     transform: scaleX(0);

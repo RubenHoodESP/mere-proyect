@@ -1,4 +1,4 @@
-a:after {
+li > a:after {
     border-bottom: solid white 1px !important;
     display: block;
     content: '';
@@ -6,6 +6,6 @@ a:after {
     transition: transform 250ms ease-in-out !important;
 }
 
-a:hover::after {
+li > a:hover::after {
     transform: scaleX(1);
 }
