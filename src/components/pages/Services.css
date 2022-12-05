@@ -1,5 +1,7 @@
 .bg-gaitas {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../assets/gaitas.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
 }

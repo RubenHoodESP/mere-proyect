@@ -1,9 +1,10 @@
 
 .custom-background {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../assets/wallpaper-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    background-repeat: no-repeat;
 }
 
 .border-animation-false:after {
