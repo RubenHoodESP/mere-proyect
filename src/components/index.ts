@@ -3,4 +3,5 @@ export { Services } from './pages/Services'
 export { Contact } from './pages/Contact'
 
 export { Navbar } from './ui/Navbar'
+export { Form } from './ui/Form'
 

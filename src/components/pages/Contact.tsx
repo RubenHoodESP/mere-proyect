@@ -1,4 +1,5 @@
 import React from 'react'
+import { Form } from '../'
 
 import './Contact.css'
 
@@ -6,6 +7,13 @@ export const Contact = () => {
   return (
     <div id='contact' className="vh-100 custom-bg-2 d-flex flex-column justify-content-center">
       <h1 className="text-center text-white">Contacto</h1>
+      <div className='row gx-0'>
+        <div className="col">
+          <div className="container">
+            <Form />
+          </div>
+        </div>
+      </div>
       <div className="row gx-0 justify-content-evenly">
         <div className="col-auto">
           <a href="https://www.instagram.com/danielmere_/" target="_blank">
