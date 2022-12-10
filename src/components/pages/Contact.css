@@ -5,3 +5,7 @@
     background-attachment: fixed;
     background-position: center;
 }
+
+.container {
+    max-width: 720px !important;
+}

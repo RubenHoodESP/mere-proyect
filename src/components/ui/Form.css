@@ -1,3 +1,7 @@
 #floatingMsg {
     height: 116px !important;
 }
+
+.button-container {
+    text-align: center;
+}

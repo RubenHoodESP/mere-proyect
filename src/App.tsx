@@ -7,9 +7,15 @@ function App() {
     <>
       <div className="row gx-0">
         <Navbar />
-        <Home />
-        <Services />
-        <Contact />
+        <div className="scroll-snap-align">
+          <Home />
+        </div>
+        <div className="scroll-snap-align">
+          <Services />
+        </div>
+        <div className="scroll-snap-align">
+          <Contact />
+        </div>
       </div>
     </>
   )

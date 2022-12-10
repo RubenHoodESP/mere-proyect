@@ -33,7 +33,7 @@ export const Form = () => {
             <textarea className='form-control' name='message' id='floatingMsg' placeholder='Mensaje' required/>
             <label htmlFor="inputMsg" className='form-label'>Mensaje</label>
         </div>
-        <div>
+        <div className='button-container'>
             <button className='btn btn-primary mb-3' type='submit' onClick={sendForm}>Enviar</button>
         </div>
     </form>
